@@ -1,7 +1,7 @@
 ---
 layout: page
 menu: contribute
-title: "Question2Answer Coding Style guidelines"
+title: "Question2Answer unit test guidelines"
 ---
 
 # Writing unit tests for Question2Answer
@@ -13,7 +13,7 @@ Question2Answer has a (currently small) unit test suite. Unit tests check 'units
 
 Testing requires [PHPUnit](https://phpunit.de/). The latest version of PHPUnit requires PHP 5.6 so most users will want v4.8 which supports PHP 5.3+. For Mac or Linux you can follow these steps:
 
-1. Download [PHPUnit 4.8](https://phar.phpunit.de/phpunit-old.phar) (PHP archive file).
+1. Download [PHPUnit 4.8](https://phar.phpunit.de/phpunit-4.8.35.phar) (PHP archive file).
 2. Mark it as executable using the command `chmod +x phpunit.phar`
 3. Move it to your executable directory: `mv phpunit.phar /usr/local/bin/phpunit`
 4. Navigate to the Question2Answer root directory.
